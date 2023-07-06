@@ -1,0 +1,29 @@
+[
+  {
+    "question": "Tính khả thi của phần mềm dựa vào các yếu tố sau:",
+    "option1": "A. Nghiệp vụ và tiếp thị",
+    "option2": "B. Phạm vi, ràng buộc và thị trường",
+    "option3": "C. Công nghệ, tiền bạc, thời gian và tài nguyên",
+    "option4": "D. Kỹ năng và năng lực của nhà phát triển",
+    "answer": 3,
+    "categoryID": 1
+  },
+  {
+    "question": "Trường khóa chính là trường Primary Key",
+    "option1": "A. Đúng",
+    "option2": "B. Sai",
+    "option3": "",
+    "option4": "",
+    "answer": 1,
+    "categoryID": 2
+  },
+  {
+    "question": "HTML là viết tắt của?",
+    "option1": "A. High Text Markup Language",
+    "option2": "B. Hyper Text Machine Language",
+    "option3": "C. Hyper Tabular Markup Language",
+    "option4": "D. Hypertext Markup Language",
+    "answer": 4,
+    "categoryID": 3
+  }
+]

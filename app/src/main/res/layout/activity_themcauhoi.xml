@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemCauHoiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Cấu trúc câu hỏi"
+        android:textColor="#1534DC"
+        android:textSize="36sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/editCauHoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Câu hỏi" />
+
+    <EditText
+        android:id="@+id/editLuaChon1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn 1" />
+
+    <EditText
+        android:id="@+id/editLuaChon2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn 2" />
+
+    <EditText
+        android:id="@+id/editLuaChon3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn 3" />
+
+    <EditText
+        android:id="@+id/editLuaChon4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lựa chọn 4" />
+
+    <EditText
+        android:id="@+id/editDapAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đáp án (1 - 4)" />
+
+    <EditText
+        android:id="@+id/editIDMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID môn học (1 - 3)" />
+
+    <Button
+        android:id="@+id/button_hoantatthemcauhoi"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#54AF57"
+        android:text="Hoàn tất"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Switch
+            android:id="@+id/button_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:backgroundTint="#656565"
+            android:text="MUSIC">
+        </Switch>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/settings">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Trắc nghiệm Công nghệ thông tin"
+        android:textColor="#3C0093"
+        android:textSize="43sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/button_gioithieumon"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#2761BA"
+        android:text="Chọn môn"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/button_themcauhoi"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="#FF771B"
+        android:text="Thêm câu hỏi"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold">
+    </Button>
+</LinearLayout>

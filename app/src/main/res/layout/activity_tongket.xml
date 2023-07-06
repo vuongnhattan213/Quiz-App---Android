@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+    <Button
+        android:id="@+id/button_restart"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="590dp"
+        android:backgroundTint="#2761BA"
+        android:text="Chọn môn"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/button_finish"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#54AF57"
+        android:text="Hoàn tất"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold">
+    </Button>
+
+    <TextView
+        android:id="@+id/textView_tongket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="--- TỔNG KẾT ---"
+        android:textColor="#F10000"
+        android:textSize="45sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="Tổng điểm: 0"
+        android:textColor="#273FC8"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="Số câu đúng: 0"
+        android:textColor="#4CAF50"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_wrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:text="Số câu sai: 0"
+        android:textColor="#CF0000"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_out_of_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:gravity="center"
+        android:text="Số câu hết giờ: 0"
+        android:textColor="#505050"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView_skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:text="Số câu bỏ qua: 0"
+        android:textColor="#171717"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+</RelativeLayout>
